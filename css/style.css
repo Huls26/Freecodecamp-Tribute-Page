@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body, 
+h1,
+h2,
+h3,
+p { margin: 0;}
+
+body {
+  font-family: Sans-serif;
+  font-size: 1.2125rem;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+h1,
+h2, 
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+#main {
+  padding: 4rem 0;
+}
+
+.container {
+  margin-inline: auto;
+  width: min(70%, 70.5rem);
+}
+
+#header {
+  text-align: center;
+}
+
+.img-div {
+  text-align: center;
+  display: block;
+  
+ 
+}
+
+img {
+  padding-top: 10px;
+  height: auto;
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#img-div p,
+#img-div img {
+  margin-top: 1rem;
+}
+
+#header {
+  margin-bottom: 2rem;
+}
+
+#header p {
+  margin-top: 2rem;
+}
+
+#main {
+  background-color: rgb(128, 145, 133);
+  margin: .5rem;
+
+}
+
+.bg-light {
+  background-color: white;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  margin: 1.5rem ;
+}
+
+#small-text {
+  font-size: 1.6rem;
+  text-align: center;
+  margin: 4rem 0;
+}
+
+#italic {
+  font-style: italic;
+  margin: 3rem 0;
+  
+}
+
+.margin-bottom {
+  margin-bottom: 4rem;
+}
+
+#simple-text {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
